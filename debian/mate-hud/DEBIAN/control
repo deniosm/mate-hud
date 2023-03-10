@@ -1,0 +1,17 @@
+Package: mate-hud
+Version: 22.10.4+denios1
+Architecture: all
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Installed-Size: 328
+Depends: gir1.2-gtk-3.0, mate-applet-appmenu, mate-desktop-common, python3 (>= 3.3), python3-dbus, python3-pyinotify, python3-psutil, python3-setproctitle, python3-xlib, rofi, dconf-gsettings-backend | gsettings-backend, python3-pkg-resources, python3:any
+Recommends: gir1.2-xfconf-0
+Section: x11
+Priority: optional
+Homepage: https://github.com/ubuntu-mate/mate-hud/
+Description: Run menubar commands, much like the Unity 7 HUD
+ A Heads-Up Display (HUD) allows you to search through an application's
+ appmenu. So if you're trying to find that single filter in Gimp but
+ can't remember which filter category it fits into or if you can't
+ recall if preferences sits under File, Edit or Tools on your favourite
+ browser, you can just search for it rather than hunting through the
+ menus.

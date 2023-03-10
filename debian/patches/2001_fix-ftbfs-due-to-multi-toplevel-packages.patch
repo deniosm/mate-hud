@@ -1,0 +1,12 @@
+Description: Hide debian/ folder from setup.py.
+Author: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+Forwarded: not needed, Debian-specific
+
+--- a/setup.py
++++ b/setup.py
+@@ -90,4 +90,5 @@
+     install_requires = ['setuptools'],
+     #scripts = [],
+     cmdclass = cmdclass,
++    py_modules = [],
+ )

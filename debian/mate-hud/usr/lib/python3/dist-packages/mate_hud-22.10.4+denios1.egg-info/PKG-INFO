@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: mate-hud
+Version: 22.10.4+denios1
+Summary: Run menubar commands, much like the Unity 7 HUD
+Home-page: https://github.com/deniosm/mate-hud/
+Author: Martin Wimpress
+License: GPLv2+
+License-File: COPYING
